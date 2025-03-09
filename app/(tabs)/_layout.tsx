@@ -14,7 +14,7 @@ export default function TabLayout() {
 
   return (
     <>
-      <SafeAreaView style={{ paddingTop: Platform.OS === "android" ? 40 : 0 }}>
+      <SafeAreaView>
         <ThemedView
           style={{
             height: 50,

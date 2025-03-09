@@ -9,15 +9,15 @@ const artists = [
   { name: "Younger", image: require("@/assets/images/artists/younger.png") },
 ];
 
-export default function StatusBar() {
+export default function StoriesBar() {
   return (
     <ThemedView
       style={{
         display: "flex",
         flexDirection: "row",
         gap: 10,
-        paddingVertical: 5,
-        paddingHorizontal: 10,
+        paddingVertical: 15,
+        paddingHorizontal: 5,
       }}
     >
       {artists.map((artist, index) => (
