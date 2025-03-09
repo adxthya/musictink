@@ -16,9 +16,9 @@ export default function HomeScreen() {
       cover: require("@/assets/images/covers/smile.png"),
     },
     {
-      title: "Die With A Smile",
-      artists: "Bruno Mars, Lady Gaga",
-      cover: require("@/assets/images/covers/smile.png"),
+      title: "Sithira Puthiri",
+      artists: "Sai, Vivek",
+      cover: require("@/assets/images/covers/sithira.png"),
     },
   ];
 

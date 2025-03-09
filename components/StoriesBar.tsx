@@ -32,8 +32,8 @@ export default function StoriesBar() {
           <Image
             source={artist.image}
             style={{
-              width: 60,
-              height: 60,
+              width: 70,
+              height: 70,
               borderRadius: 100,
               borderWidth: 3,
               borderColor: "gray",
